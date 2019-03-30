@@ -10,10 +10,10 @@
 
 #if TARGET_OS_IPHONE || TARGET_IPHONE_SIMULATOR
 #import <UIKit/UIKit.h>
-#import <TesseractOCR/TesseractOCR.h>
+#import "TesseractOCR/TesseractOCR.h"
 #elif TARGET_OS_MAC
 #import <AppKit/AppKit.h>
-#import <TesseractOCRmacOS/TesseractOCR.h>
+#import "TesseractOCRmacOS/TesseractOCR.h"
 #endif
 
 #import <Kiwi/Kiwi.h>

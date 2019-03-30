@@ -9,9 +9,9 @@
 #import <Foundation/Foundation.h>
 
 #if TARGET_OS_IPHONE || TARGET_IPHONE_SIMULATOR
-#import <TesseractOCR/TesseractOCR.h>
+#import "TesseractOCR/TesseractOCR.h"
 #elif TARGET_OS_MAC
-#import <TesseractOCRmacOS/TesseractOCR.h>
+#import "TesseractOCRmacOS/TesseractOCR.h"
 #endif
 
 typedef NS_ENUM(NSUInteger, G8CustomPreprocessing) {

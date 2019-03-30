@@ -8,7 +8,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <TesseractOCR/TesseractOCR.h>
+#import "TesseractOCR/TesseractOCR.h"
 
 @interface G8ViewController : UIViewController <G8TesseractDelegate,
                                                 UIImagePickerControllerDelegate,
